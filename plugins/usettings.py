@@ -42,7 +42,7 @@ async def userSettings(
             editMetadataStr = "❌"
         uSettingsMessage = f"""
 <b><u>Merge Bot settings for <a href='tg://user?id={uid}'>{fname} {lname}</a></u></b>
-    ┃
+    ┃NTM
     ┣**👦 ID: <u>{usettings.user_id}</u>**
     ┣**{'🚫' if usettings.banned else '🫡'} Ban Status: <u>{usettings.banned}</u>**
     ┣**{'⚡' if usettings.allowed else '❗'} Allowed: <u>{usettings.allowed}</u>**
